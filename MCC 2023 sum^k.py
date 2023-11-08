@@ -10,10 +10,10 @@ def sum_of_scores(N, K, A):
 
     return result % 998244353
 
-# Read the input
+
 N, K = map(int, input().split())
 A = list(map(int, input().split()))
 
-# Call the function and print the result
+
 result = sum_of_scores(N, K, A)
 print(result)
