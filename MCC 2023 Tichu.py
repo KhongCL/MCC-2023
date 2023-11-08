@@ -1,5 +1,5 @@
 def longest_run(N, K, cards):
-    # Sort the list of integers in ascending order
+
     cards.sort()
 
     max_run_length = 0
@@ -24,10 +24,10 @@ def longest_run(N, K, cards):
 
     return max_run_length
 
-# Read the input
+
 N, K = map(int, input().split())
 cards = list(map(int, input().split()))
 
-# Call the function and print the result
+
 result = longest_run(N, K, cards)
 print(result)
