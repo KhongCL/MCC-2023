@@ -32,7 +32,7 @@ for x in range(0,M):
         break
     point+=listab[counter]
     counter+=1
-print(highest)
+
 
 print(point)
 
